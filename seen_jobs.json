@@ -1,4 +1,22 @@
 {
-  "https://designproject.io/jobs/junior-uxui-designer-stage-at-capgemini-ljje40": {"azienda": "Capgemini", "titolo": "Junior UX/UI Designer - Stage", "segnalato": "2026-10-11"},
-  "https://careers.essilorluxottica.com/job/Milano-UI-Design-System-Internship/1420428433/": {"azienda": "EssilorLuxottica", "titolo": "UI Design System Internship", "segnalato": "2026-10-11"}
+  "https://designproject.io/jobs/junior-uxui-designer-stage-at-capgemini-ljje40": {
+    "azienda": "Capgemini",
+    "titolo": "Junior UX/UI Designer - Stage",
+    "segnalato": "2026-10-11"
+  },
+  "https://careers.essilorluxottica.com/job/Milano-UI-Design-System-Internship/1420428433/": {
+    "azienda": "EssilorLuxottica",
+    "titolo": "UI Design System Internship",
+    "segnalato": "2026-10-11"
+  },
+  "https://funambol.com/careers/junior_ux_designer.html": {
+    "azienda": "Funambol",
+    "titolo": "Junior UX Designer",
+    "segnalato": "2026-10-11"
+  },
+  "https://careers-page.com/claritergroup/job/7X4344R3": {
+    "azienda": "Clariter Group",
+    "titolo": "Junior CX/UX & Human Factors Researcher",
+    "segnalato": "2026-10-11"
+  }
 }
