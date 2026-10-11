@@ -1,0 +1,134 @@
+# Ruoli da cercare (anche varianti e titoli simili, in italiano e inglese)
+ruoli:
+  - Service Designer
+  - UX Designer
+  - Service & UX Designer
+  - CX Designer / Customer Experience Designer
+  - Design Researcher
+  - UX Researcher
+  - Product-Service System Designer
+  - Design Strategist
+  - Interaction Designer
+
+tipo_posizione: [junior, stage, tirocinio, internship]
+
+localita:
+  - Emilia-Romagna (in sede, ibrido o remoto) — priorità
+  - Italia (in sede, ibrido o remoto)
+  - Remoto Europa
+
+lingue_ammesse: [italiano, inglese]
+
+# Scarta gli annunci che contengono queste parole nel titolo
+escludi:
+  - senior
+  - lead
+  - head of
+  - director
+  - manager
+  - graphic designer print
+  - interior designer
+
+# Settori preferiti (aumentano il punteggio) — dedotti dai progetti in
+# portfolio di Alice (vedi profilo.md), da confermare/aggiornare
+settori_preferiti: [impatto sociale, sicurezza urbana, consumer tech, wearable, edtech]
+
+# Aziende e studi da controllare ogni settimana.
+# tipo: sito = Claude trova da solo la pagina "Lavora con noi"
+# Domini segnati con "?" sono una mia ipotesi, non verificata: se la
+# prima esecuzione dà errore su una di queste, va corretto il dominio.
+aziende:
+  - nome: Unieuro
+    tipo: sito
+    dominio: unieuro.it
+  - nome: Maggioli
+    tipo: sito
+    dominio: maggioli.it   # ?
+  - nome: Orogel
+    tipo: sito
+    dominio: orogel.it   # ?
+  - nome: Ducati
+    tipo: sito
+    dominio: ducati.com
+  - nome: Lamborghini
+    tipo: sito
+    dominio: lamborghini.com
+  - nome: YOOX Net-a-Porter (YNAP)
+    tipo: sito
+    dominio: ynap.com
+  - nome: Hera
+    tipo: sito
+    dominio: gruppohera.it   # ?
+  - nome: Illumia
+    tipo: sito
+    dominio: illumia.it   # ?
+  - nome: Costa Parchi
+    tipo: sito   # dominio non verificato, Claude lo cerca sul web
+  - nome: Accenture Song
+    tipo: sito
+    dominio: accenture.com
+  - nome: Deloitte Digital
+    tipo: sito
+    dominio: deloitte.com
+  - nome: Reply
+    tipo: sito
+    dominio: reply.com
+  - nome: Sketchin
+    tipo: sito
+    dominio: sketchin.ch   # ?
+  - nome: OTB Group
+    tipo: sito
+    dominio: otb.net   # ?
+  - nome: Geox
+    tipo: sito
+    dominio: geoxgroup.com   # ?
+  - nome: EssilorLuxottica
+    tipo: sito
+    dominio: essilorluxottica.com
+  - nome: Lago
+    tipo: sito
+    dominio: lago.it   # ?
+  - nome: De'Longhi
+    tipo: sito
+    dominio: delonghigroup.com   # ?
+
+# Siti di annunci da controllare (generici, non legati a un'azienda specifica)
+job_board:
+  - nome: Coroflot (design di prodotto/servizio)
+    url: https://www.coroflot.com/design-jobs
+  - nome: Remotive (API design)
+    url: https://remotive.com/api/remote-jobs?category=design
+  - nome: Remote OK (API)
+    url: https://remoteok.com/api?tag=design
+  - nome: We Work Remotely - Design
+    url: https://weworkremotely.com/categories/remote-design-jobs
+  - nome: Dribbble Jobs
+    url: https://dribbble.com/jobs
+  - nome: Welcome to the Jungle
+    url: https://www.welcometothejungle.com/it/jobs?query=service%20designer%20stage
+  - nome: InfoJobs - service designer
+    url: https://www.infojobs.it/offerte-lavoro/service-designer
+  - nome: InfoJobs - stage design
+    url: https://www.infojobs.it/offerte-lavoro/stage-design
+
+ricerca_web:
+  attiva: true
+  query_extra:
+    - stage service designer Italia
+    - tirocinio service design
+    - internship service designer Europe
+    - junior UX researcher Italia
+    - service design graduate programme
+    - CX designer junior Italia
+    - design strategist internship
+
+gmail:
+  attivo: true
+  mittenti:
+    - linkedin.com
+    - indeed.com
+    - infojobs.it
+
+output:
+  massimo_annunci: 40
+  email_destinatario: alice.fedriga@icloud.com
